@@ -3,9 +3,9 @@ https://github.com/user-attachments/assets/76c38432-70ca-4780-bfdf-ad3cb2e9f7dd
 
 # First Steps
 
-## git clone (`https://github.com/gururajm1/Book-Bug.git`)
+### git clone (`https://github.com/gururajm1/Book-Bug.git`)
 
-## `cd client`
+### `cd client`
 
 Navigate to the Client Directory
 
@@ -18,7 +18,7 @@ Install Node Packages
 Start the client 
 
 
-## `cd server`
+### `cd server`
 
 Navigate to the Server Directory
 
