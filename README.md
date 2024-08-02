@@ -1,23 +1,23 @@
 
 https://github.com/user-attachments/assets/76c38432-70ca-4780-bfdf-ad3cb2e9f7dd
 
-##First Steps
+## First Steps
 
-###git clone (`https://github.com/gururajm1/Book-Bug.git`)
+### git clone (`https://github.com/gururajm1/Book-Bug.git`)
 
 
 ## cd client
 
-###npm install
+### npm install
 
-#npm start
+### npm start
 
 
-### cd client
+## cd server
 
-###npm install
+### npm install
 
-###nodemon server.js
+### nodemon server.js
 
 
 ![Screenshot (658)](https://github.com/user-attachments/assets/7f43e7ff-9061-415f-aaff-076884058467)
