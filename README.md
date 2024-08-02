@@ -7,16 +7,28 @@ https://github.com/user-attachments/assets/76c38432-70ca-4780-bfdf-ad3cb2e9f7dd
 
 ## `cd client`
 
+Navigate to the Client Directory
+
 ### `npm install`
 
+Install Node Packages
+
 ### `npm start`
+
+Start the client 
 
 
 ## `cd server`
 
+Navigate to the Server Directory
+
 ### `npm install`
 
+Install Node Packages
+
 ### `nodemon server.js`
+
+Start the server js
 
 
 ![Screenshot (658)](https://github.com/user-attachments/assets/7f43e7ff-9061-415f-aaff-076884058467)
