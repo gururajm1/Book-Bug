@@ -11,7 +11,7 @@ import { firebaseAuth } from "../dependencies/firebaseConfig";
 
 function Signup() {
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(true); // Added loading state
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
   const emailInputRef = useRef(null);

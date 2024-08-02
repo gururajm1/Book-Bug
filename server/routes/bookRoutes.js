@@ -30,7 +30,7 @@ router.post("/reviews", async (req, res) => {
     }
 
     const newReview = {
-      by: email, // Use email or user's name instead of ISBN
+      by: email,
       text: reviewText,
     };
     user.reviews.push(newReview);

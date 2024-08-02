@@ -1,13 +1,11 @@
 const mongoose = require("mongoose");
 
-// Review schema definition
 const reviewSchema = new mongoose.Schema({
   by: String,
-  text: String, // Ensure the field matches 'text' instead of 'msg'
+  text: String, 
 });
 
 
-// Book schema definition
 const bookSchema = new mongoose.Schema({
   userAdded: {
     type: Boolean,
@@ -21,7 +19,6 @@ const bookSchema = new mongoose.Schema({
   url: String,
 });
 
-// UserAdded schema definition
 const userAddedSchema = new mongoose.Schema({
   name: String,
   author: String,
@@ -36,7 +33,6 @@ const userAddedSchema = new mongoose.Schema({
   language: String,
 });
 
-// User schema definition
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -65,7 +61,6 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-// Create the Mongoose model for User schema
 const Main = mongoose.model("Main", userSchema);
 
 module.exports = Main;
